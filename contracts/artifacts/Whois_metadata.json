@@ -1,0 +1,66 @@
+{
+	"compiler": {
+		"version": "0.8.17+commit.8df45f5f"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "extraMethod",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "whoAmI",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/Paribuhub.sol": "Whois"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/Paribuhub.sol": {
+			"keccak256": "0xd2574eda2b3fc17ce46f865c1587ba5e4243dcd6992f51bf08f86bd90a510ceb",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://919470aada01c7a026c3070c58efe7dc5aa2351cdf33709de101d5d5a041736c",
+				"dweb:/ipfs/QmZVKY5msDSS22f78u43ovkA74MiYsNX9gKSW5wDtrQxpw"
+			]
+		}
+	},
+	"version": 1
+}
